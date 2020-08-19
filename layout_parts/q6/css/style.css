@@ -66,3 +66,17 @@
     left: 50%;
     transform: translate(-50%,-50%);
   }
+
+  /* displey:flex ある要素に定義するだけで
+  その直下の要素が並列になるスタイル。便利
+
+  他の並列レイアウト方
+  float:left 並列させたい要素のスタイルに。
+  displey:inline-block　並列させたい要素のスタイルに。
+  table　tableタグを利用するか、CSSのdispley:table
+  　　　 を使って要素をテーブル化。
+
+  ディスプレイ天地中央で調べるとすぐ使えるレベルで便利
+  
+
+

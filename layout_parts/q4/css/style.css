@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.q4 {
+.q4__wrapper {
   padding: 20px;
   box-sizing: border-box;
   background-color: #ECF1F2;
@@ -39,3 +39,11 @@
   width: 500px;
   background-color: #8fdcad;
 }
+
+/*box-sizing:ボックスサイズの算出方法を指定する際に使用する。
+
+content-box:パディングとボーダーを幅と高さに含めない。
+
+border-box:パディングとボーダーを幅と高さに含める。
+
+inherit:親要素の値を継承する。

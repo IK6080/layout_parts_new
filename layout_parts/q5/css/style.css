@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.q5 {
+.q5__wrapper {
   position: relative;
   width: 500px;
   height: 500px;
@@ -79,3 +79,10 @@
   left: 10px;
   background-color: #2d69a3;
 }
+
+/*z^index:ボックスの重なりの順序を指定する際に使用する。
+
+整数値で指定：重なりの順序を整数で指定します。
+０を基準として値が大きいほど上になる。
+
+auto:親要素と同じ階層になる。これが初期値。
