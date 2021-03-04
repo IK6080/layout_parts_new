@@ -13,20 +13,21 @@
   font-size: 16px;
   line-height: 16px;
 }
+
 .q9__balloon:after, .q9__balloon:before {
   position: absolute;
   border: 20px solid transparent;
   content: "";
 }
+
 .q9__balloon:before {
   bottom: -45px;
   left: 30px;
-  border-top-color: #222;
-  
+  border-top-color: #222; 
 }
+
 .q9__balloon:after {
   bottom: -38px;
   left: 30px;
-  border-top-color: #fff;
-  
+  border-top-color: #fff;  
 }
